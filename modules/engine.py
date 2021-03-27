@@ -1,7 +1,7 @@
 
 # you might need this: ² √ ⋅
 
-def make_discriminant(a, b, c):
+def make_discriminant(a:int, b:int, c:int):
 	"""
 	This function accepts a, b and c params
 	and returns discriminant of theese numbers
@@ -33,7 +33,7 @@ def make_discriminant(a, b, c):
 	print(discriminant_way)
 
 
-def make_general_solution(a, b, D):
+def make_general_solution(a:int, b:int, D:int):
 	"""
 	This function accepts a, b and D(discriminant)
 	and returns to you x1 and x2 if
